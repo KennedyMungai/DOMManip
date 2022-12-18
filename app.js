@@ -17,3 +17,4 @@ const li = document.createElement('li')
 ul.append(li)
 
 // Modifying the text
+const firstListItem = document.querySelector('.list-item')
