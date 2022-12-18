@@ -4,4 +4,6 @@ const title = document.getElementById('main-heading')
 
 const listTags = document.getElementsByTagName('li')
 
-const container = document.querySelector('div')
+// const container = document.querySelector('div')
+
+const containers = document.querySelectorAll('div')
