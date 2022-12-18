@@ -9,3 +9,6 @@
 //     const listItem = listItems[i];
 //     listItem.style.fontSize = '4rem';
 // }
+
+//Creating elements
+const ul = document.querySelector('ul')
