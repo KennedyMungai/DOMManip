@@ -18,9 +18,11 @@ button {
 }
 
 .hidden-content {
-    padding: 1rem;
-    border: 0.1rem solid white;
-    border-radius: 0.5rem;
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
 }
 
 .boxes {
