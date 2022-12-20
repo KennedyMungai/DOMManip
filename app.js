@@ -5,6 +5,10 @@ let seconds = 0
 let minutes = 0
 let hours = 0
 
+let leadingSeconds = 0
+let leadingMinutes = 0
+let leadingHours = 0
+
 function stopWatch()
 {
     seconds++
