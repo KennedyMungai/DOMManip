@@ -27,9 +27,6 @@
 // Removing elements from the DOM
 // li.remove()
 
-// Parent Node Traversal
-let ul = document.querySelector('ul')
-
 // console.log(ul.parentNode.parentNode)
 // console.log(ul.parentElement.parentElement)
 
@@ -37,3 +34,6 @@ let ul = document.querySelector('ul')
 
 // console.log(html.parentElement)
 // console.log(html.parentNode)
+
+// Parent Node Traversal
+let ul = document.querySelector('ul')
