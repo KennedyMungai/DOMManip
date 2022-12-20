@@ -17,3 +17,5 @@ function changeBgColor()
 {
     newBackgroundColor.style.backgroundColor = 'olive'
 }
+
+newBackgroundColor.addEventListener("mouseover", changeBgColor)
