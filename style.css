@@ -12,4 +12,5 @@ button {
     color: whitesmoke;
     background-color: blueviolet;
     padding: 0.5rem;
+    border-radius: 0.5rem;
 }
