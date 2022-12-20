@@ -20,6 +20,6 @@ ul.append(li)
 li.innerText = 'X-Men'
 
 // Modifying attributes and classes
-li.classList.remove('list-items')
+li.classList.add('list-items')
 
 console.log(li.classList.contains('list-items'))
