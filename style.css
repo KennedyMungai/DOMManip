@@ -25,3 +25,8 @@ button {
     border: 0rem;
     background-color: azure;
 }
+
+.btn:hover {
+    scale: 1.2;
+    transition: 0.5s ease-out;
+}
