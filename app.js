@@ -59,3 +59,19 @@ function stopWatch()
 }
 
 // window.setInterval(stopWatch, 1000)
+
+startStopBtn.addEventListener('click', function ()
+{
+    if (timerStatus === "stopped")
+    {
+        timerInterval = window.setInterval(stopWatch, 1000)
+        document.getElementById('#startStopBtn').innerHTML = `<i class="fa-solid fa-pause" id="pause></i>`
+        timerStatus = "started"
+    }
+    else 
+    {
+        window.clearInterval(timerInterval)
+        document.getElementById('#startStopBtn').innerHTML = `<i class = "fa-solid fa-play" id="play"></i>`
+        timerStatus = "stopped"
+    }
+})
