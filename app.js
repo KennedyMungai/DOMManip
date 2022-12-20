@@ -21,3 +21,4 @@ li.innerText = 'X-Men'
 
 // Modifying attributes and classes
 li.setAttribute('id', 'main-heading')
+li.removeAttribute('id')
