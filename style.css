@@ -25,3 +25,10 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 0 3px;
 }
+
+#timer {
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px auto;
+}
