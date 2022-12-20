@@ -53,4 +53,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    animation-name: animatemodal;
+    animation-duration: 0.4s;
 }
