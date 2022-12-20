@@ -34,3 +34,11 @@ const quotes = [{
     quote: `"The journey of a thousand miles begins with one step."`,
     person: `Lao Tzu`
 },]
+
+btn.addEventListener('click', function ()
+{
+    let random = Math.floor(Math.random() * quotes.length)
+
+    quote.innerText = quote[random].quote
+    person.innerText = quote[random].person
+})
