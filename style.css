@@ -3,3 +3,13 @@ body {
     background-color: rgb(48, 47, 47);
     color: white;
 }
+
+.container {
+    display: flex;
+}
+
+button {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 0.5rem;
+}
