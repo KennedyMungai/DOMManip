@@ -12,3 +12,5 @@ function revealContent()
         hiddenContent.classList.add('reveal-btn')
     }
 }
+
+revealBtn.addEventListener('click', revealContent)
