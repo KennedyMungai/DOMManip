@@ -25,6 +25,15 @@ function stopWatch()
         }
     }
 
+    if (seconds < 10)
+    {
+        leadingSeconds = "0" + seconds.toString()
+    }
+    else
+    {
+        leadingSeconds = seconds
+    }
+
     let displayTimer = document.getElementById('#timer').innerText = hours + ":" + minutes + ":" + seconds
 }
 
