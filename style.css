@@ -14,3 +14,17 @@ body {
     width: 100vw;
     position: relative;
 }
+
+#open-btn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 350px;
+    height: 80px;
+    font-size: 2rem;
+    background: transparent;
+    color: white;
+    border: 0.1rem solid white;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+}
