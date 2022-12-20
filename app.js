@@ -7,3 +7,5 @@ function alertBtn()
 {
     alert("You have pressed a button")
 }
+
+buttonTwo.addEventListener("click", alertBtn)
