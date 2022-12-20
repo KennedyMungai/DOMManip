@@ -26,3 +26,8 @@
 
 // Removing elements from the DOM
 // li.remove()
+
+// Parent Node Traversal
+let ul = document.querySelector('ul')
+
+console.log(ul)
