@@ -13,7 +13,7 @@ document.querySelector('#football').addEventListener('click', function (e)
 
 document.querySelector('#basketball').addEventListener('click', function (e)
 {
-    console.log("Football is the shit")
+    console.log("Basketball is the shit")
 
     const target = e.target;
 
@@ -25,7 +25,7 @@ document.querySelector('#basketball').addEventListener('click', function (e)
 
 document.querySelector('#boxing').addEventListener('click', function (e)
 {
-    console.log("Football is the shit")
+    console.log("Boxing is the shit")
 
     const target = e.target;
 
@@ -37,7 +37,7 @@ document.querySelector('#boxing').addEventListener('click', function (e)
 
 document.querySelector('#tennis').addEventListener('click', function (e)
 {
-    console.log("Football is the shit")
+    console.log("Tennis is the shit")
 
     const target = e.target;
 
@@ -49,7 +49,7 @@ document.querySelector('#tennis').addEventListener('click', function (e)
 
 document.querySelector('#golf').addEventListener('click', function (e)
 {
-    console.log("Football is the shit")
+    console.log("Golf is the shit")
 
     const target = e.target;
 
