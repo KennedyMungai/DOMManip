@@ -9,6 +9,9 @@ let leadingSeconds = 0
 let leadingMinutes = 0
 let leadingHours = 0
 
+let timerInterval = null
+let timerStatus = "stopped"
+
 function stopWatch()
 {
     seconds++
