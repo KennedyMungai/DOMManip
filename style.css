@@ -1,0 +1,32 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    background-color: rgba(255, 127, 80, 0.534);
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-text, .button {
+    margin: 2rem;
+}
+
+.button {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: navy;
+    color: white;
+    border: 0;
+}
