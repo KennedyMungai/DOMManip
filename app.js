@@ -20,4 +20,6 @@ function stopWatch()
             hours++
         }
     }
+
+    let displayTimer = document.getElementById('#timer').innerText = hours + ":" + minutes + ":" + seconds
 }
