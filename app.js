@@ -52,7 +52,7 @@ function stopWatch()
         leadingHours = hours
     }
 
-    let displayTimer = document.getElementById('#timer').innerText = hours + ":" + minutes + ":" + seconds
+    let displayTimer = document.getElementById('#timer').innerText = leadingHours + ":" + leadingMinutes + ":" + leadingSeconds
 }
 
 // window.setInterval(stopWatch, 1000)
