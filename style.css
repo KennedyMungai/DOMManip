@@ -60,3 +60,9 @@ body {
     height: 150px;
     transition: 0.5s;
 }
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 2rem;
+    transition: 0.5s ease-in-out;
+}
