@@ -18,3 +18,6 @@ ul.append(li)
 
 // Modifying the text
 li.innerText = 'X-Men'
+
+// Modifying attributes and classes
+li.setAttribute('id', 'main-heading')
