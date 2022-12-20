@@ -39,3 +39,5 @@
 let ul = document.querySelector('ul')
 
 console.log(ul.childNodes)
+console.log(ul.firstChild)
+console.log(ul.lastChild)
