@@ -11,18 +11,18 @@
 // }
 
 //Creating elements
-const ul = document.querySelector('ul')
-const li = document.createElement('li')
+// const ul = document.querySelector('ul')
+// const li = document.createElement('li')
 
-ul.append(li)
+// ul.append(li)
 
 // Modifying the text
-li.innerText = 'X-Men'
+// li.innerText = 'X-Men'
 
 // Modifying attributes and classes
-li.classList.add('list-items')
+// li.classList.add('list-items')
 
 // console.log(li.classList.contains('list-items'))
 
 // Removing elements from the DOM
-li.remove()
+// li.remove()
