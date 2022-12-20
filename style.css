@@ -16,3 +16,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3px;
+}
