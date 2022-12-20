@@ -20,3 +20,4 @@ ul.append(li)
 li.innerText = 'X-Men'
 
 // Modifying attributes and classes
+li.classList.remove('list-items')
