@@ -2,6 +2,7 @@ body {
     overflow: hidden;
     background-color: rgb(48, 47, 47);
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -12,5 +13,12 @@ button {
     color: whitesmoke;
     background-color: blueviolet;
     padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid white;
+}
+
+.hidden-content {
+    padding: 1rem;
+    border: 0.1rem solid white;
     border-radius: 0.5rem;
 }
