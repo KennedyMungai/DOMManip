@@ -58,4 +58,5 @@ body {
 
 .accordion .content-container.active .answer {
     height: 150px;
+    transition: 0.5s;
 }
