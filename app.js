@@ -13,7 +13,7 @@ const quotes = [{
     quote: `"At his best, man is the noblest of all animals; separated from law and justice he is the worst."`,
     person: `Aristotle`
 }, {
-    quote: `"Your time is limited, so dont waste it living someone else's life."`,
+    quote: `"Your time is limited, so don't waste it living someone else's life."`,
     person: ` Steve Jobs`
 }, {
     quote: `"Tell me and I forget. Teach me and I remember. Involve me and I learn."`,
@@ -39,6 +39,6 @@ btn.addEventListener('click', function ()
 {
     let random = Math.floor(Math.random() * quotes.length)
 
-    quote.innerText = quote[random].quote
-    person.innerText = quote[random].person
+    quote.innerText = quotes[random].quote
+    person.innerText = quotes[random].person
 })
