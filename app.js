@@ -8,3 +8,10 @@ document.querySelector('#sports').addEventListener('click', function (e)
         target.style.backgroundColor = 'gray'
     }
 })
+
+const sports = document.querySelector('#sports')
+const newSport = document.createElement('li')
+
+newSport.innerText = "Rugby"
+newSport.setAttribute('id', 'rugby')
+sports.appendChild(newSport)
