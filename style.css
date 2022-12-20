@@ -55,3 +55,7 @@ body {
     overflow: hidden;
     transition: 0.5s ease-in-out;
 }
+
+.accordion .content-container.active .answer {
+    height: 150px;
+}
