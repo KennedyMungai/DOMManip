@@ -21,3 +21,5 @@ li.innerText = 'X-Men'
 
 // Modifying attributes and classes
 li.classList.remove('list-items')
+
+console.log(li.classList.contains('list-items'))
