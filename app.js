@@ -23,3 +23,5 @@ function stopWatch()
 
     let displayTimer = document.getElementById('#timer').innerText = hours + ":" + minutes + ":" + seconds
 }
+
+window.setInterval(stopWatch, 1000)
