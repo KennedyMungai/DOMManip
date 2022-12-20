@@ -23,3 +23,8 @@ body {
     padding: 2rem;
     border-radius: 0.5rem;
 }
+
+.accordion .accordion-title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
