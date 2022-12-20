@@ -57,3 +57,9 @@ body {
     animation-name: animatemodal;
     animation-duration: 0.4s;
 }
+
+#close-btn {
+    cursor: pointer;
+    font-size: 3rem;
+    color: red;
+}
