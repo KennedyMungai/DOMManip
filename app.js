@@ -20,9 +20,3 @@ ul.append(li)
 li.innerText = 'X-Men'
 
 // Modifying attributes and classes
-li.setAttribute('id', 'main-heading')
-li.removeAttribute('id')
-
-const title = document.querySelector('#main-heading')
-
-console.log(title.getAttribute('id'))
