@@ -18,7 +18,7 @@ body {
 #add-task-container {
     width: 20rem;
     padding: 2rem;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
     box-shadow: 0 0 3px;
 
@@ -31,6 +31,7 @@ input {
     border-radius: 0.25rem;
     font-size: 1.15rem;
     border: 0.1rem solid black;
+    background-color: rgba(255, 255, 255, 0.5);
     /* padding: 0.25rem; */
 }
 
@@ -39,7 +40,7 @@ input {
     transition: 0.25s ease-in-out;
     font-size: 1.2rem;
     padding: 0.5rem;
-    background-color: white;
+    background-color: transparent;
     color: green;
     border: 0.01rem solid green;
     border-radius: 0.5rem;
