@@ -16,3 +16,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#add-task-container {
+    width: 15rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
