@@ -18,8 +18,8 @@ body {
 }
 
 #add-task-container {
-    width: 15rem;
-    padding: 1rem;
+    width: 20rem;
+    padding: 2rem;
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 0 3px;
