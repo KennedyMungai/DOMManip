@@ -21,4 +21,15 @@ addTask.addEventListener('click', function ()
     deleteButton.innerHTML = '<i class="fa-solid fa-trash-can"></i>'
     deleteButton.classList.add('deleteTask')
     task.appendChild(deleteButton)
+
+    if (inputTask.value === "")
+    {
+        alert("Please don't submit a blank task")
+    }
+    else
+    {
+        taskContainer.appendChild(task)
+    }
+
+    inputTask.value = ""
 })
