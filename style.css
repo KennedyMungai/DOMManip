@@ -45,3 +45,8 @@ input {
     border: 0.01rem solid green;
     border-radius: 0.5rem;
 }
+
+#add-task:hover {
+    background-color: green;
+    color: white;
+}
