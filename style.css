@@ -20,7 +20,7 @@ body {
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0.5rem;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 0.5rem;
 
     display: flex;
     justify-content: space-evenly;
@@ -57,4 +57,13 @@ input {
     margin: 2rem;
     border-radius: 0.5rem;
     list-style: none;
+    box-shadow: 0 0 0.5rem;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem;
 }
