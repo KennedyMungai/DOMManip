@@ -80,3 +80,9 @@ input {
     cursor: pointer;
     border: none;
 }
+
+.task .checkTask {
+    color: orange;
+    margin: 0.2rem;
+    border: 0.1rem solid orange;
+}
