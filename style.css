@@ -32,6 +32,7 @@ input {
     flex: 5;
     border-radius: 0.25rem;
     font-size: 1.15rem;
+    border: 0.1rem solid black;
     /* padding: 0.25rem; */
 }
 
