@@ -86,3 +86,8 @@ input {
     margin: 0.2rem;
     border: 0.1rem solid orange;
 }
+
+.task .deleteTask {
+    color: red;
+    border: 0.1rem solid red;
+}
