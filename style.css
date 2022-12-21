@@ -91,3 +91,16 @@ input {
     color: red;
     border: 0.1rem solid red;
 }
+
+.task .checkTask:hover {
+    color: white;
+    margin: 0.2rem;
+    border: 0.1rem solid white;
+    background-color: orange;
+}
+
+.task .deleteTask:hover {
+    color: white;
+    border: 0.1rem solid white;
+    background-color: red;
+}
